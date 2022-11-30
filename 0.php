@@ -1,11 +1,12 @@
 <?php
 const TEST_CONSTANTA = 'asd';
-$user_name = "Igor";
+$userName = "Igor";
 
-function show_something()
+function showSomething()
 {
     return 'SOMETHING';
 }
 
-echo 'hi';
-?>
+if (1 == 1) {
+    echo 'hi';
+}
